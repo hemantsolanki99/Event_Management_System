@@ -1,0 +1,111 @@
+@font-face{
+  font-family: 'GOTHIC';
+  src: url("../fonts/GOTHIC.TTF");
+}
+
+@font-face{
+  font-family: 'GOTHICB';
+  src: url("../fonts/GOTHICB.TTF");
+}
+
+@font-face{
+  font-family: 'facon';
+  src: url("../fonts/Facon.ttf");
+}
+
+::-webkit-scrollbar { 
+            display: none; 
+        }
+
+.back_screen{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    min-height: 800px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.56), rgba(0, 245, 255, 0.56));
+    color: rgb(253, 253, 253);
+    background-size: 100% 100%;
+}
+
+.front_screen{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    min-height: 800px;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, rgba(0, 245, 255, 0.45), rgba(19, 0, 255, 0.45), rgba(0, 245, 255, 0.45));
+    color: rgb(253, 253, 253);
+    background-size: 100% 100%;
+    font-weight: bold;
+}
+
+.page_back{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 800px;
+    background-image: url("../images/bg1.jpg");
+    
+    background-size: 100% 100%;
+}
+
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    min-height: 300px;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.54), rgb(8, 8, 8));
+    color: rgb(253, 253, 253);
+    background-size: 100% 100%;
+    font-weight: bold;
+}
+
+.form-groups{
+    margin-left: 40%;
+}
+
+.link_url:hover{
+    text-decoration: underline;
+    font-style: italic;
+    font-stretch: expanded;
+    color: #aaffff;
+}
+
+.fot_back{
+    position: relative;
+    align-content: center;
+    background-image: url("../images/logo.png");
+    width: 140px;
+    height: 80px;
+    background-size: 100% 100%;
+    overflow: hidden;
+    font-family: GOTHICB;
+}
+
+.fot_con_back{
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.text_none{
+    visibility: hidden;
+}
+
+.foter{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.footer a, .footer a:hover{
+    color: #ffffff;
+}
+
+.feedback_control{
+    align-content: center;
+    align-items: center;
+}
